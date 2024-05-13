@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/pendaftaran.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>SIAIRA</title>
+  </head>
+  <body>
+    <div class="fContainer">
+      <nav class="wrapper">
+        <div class="Brand">
+          <img
+            src="foto/SIAIRA.png"
+            alt="SIAIRA"
+            width="240px"
+            height="150px"
+          />
+        </div>
+        <ul class="navigation">
+          <li>
+            <a href="#"><i data-feather="bell"></i></a>
+          </li>
+          <li><a href="#">│</a></li>
+          <li>
+            <a href="#"><i data-feather="user"></i> </a>
+          </li>
+          <li><a href="#">ananda rizki</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div>
+      <ul class="sidebar">
+        <div class="menu">
+          <i data-feather="align-right" class="hamberger-menu"></i>
+        </div>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="akun.html">Akun</a></li>
+        <li><a href="pendataran.html">Pendaftaran</a></li>
+        <li><a href="distribusi.html">sistem distribusi</a></li>
+        <li><a href="pembayaran.html">metode pembayaran</a></li>
+        <li><a href="hubungi.html">hubungi kami</a></li>
+        <div class="telpon">
+          <i data-feather="phone-call" style="width: 40px; height: 40px"></i>
+          <div class="nomer">
+            <p>Call Center</p>
+            <p>049136673</p>
+          </div>
+      </ul>
+
+      <div class="container">
+        <img
+          src="foto/logo.akun.png"
+          alt="logo"
+          width="160px"
+          height="90px"
+          style="margin-left: 130px"
+        />
+        <h1>welcome</h1>
+        <h5>Sign up to start your journey</h5>
+        <form action="#" method="post">
+          <label for="fullname">Nama Lengkap:</label>
+          <input type="text" id="fullname" name="fullname" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+
+          <label for="confirmpassword">Konfirmasi Password:</label>
+          <input
+            type="password"
+            id="confirmpassword"
+            name="confirmpassword"
+            required
+          />
+
+          <h5 class="agree">
+            <input type="checkbox" id="terms" name="terms" required />I agree
+            with the terms and conditions
+          </h5>
+
+          <input type="submit" value="Register" />
+          <h5 class="sudah">Sudah punya akun?</h5>
+        </form>
+      </div>
+    </div>
+
+    <script>
+      feather.replace();
+    </script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
